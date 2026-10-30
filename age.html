@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Age Calculator</h1>
+        <p>Discover your age in years, months and days</p>
+
+        <div class="calculator">
+
+            <h2>Select Your Date of Birth</h2>
+
+            <input type="date" id="dob">
+
+            <button onclick="calculateAge()">Calculate Age</button>
+
+        </div>
+
+        <div class="result">
+
+            <h2>Your Age Is</h2>
+
+            <div class="boxes">
+
+                <div class="box">
+                    <h3 id="year">--</h3>
+                    <p>Years</p>
+                </div>
+
+                <div class="box">
+                    <h3 id="month">--</h3>
+                    <p>Months</p>
+                </div>
+
+                <div class="box">
+                    <h3 id="day">--</h3>
+                    <p>Days</p>
+                </div>
+
+                <div class="box">
+                    <h3 id="total">--</h3>
+                    <p>Total Days</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="quote">
+            <p>“Every day is a new beginning”</p>
+            <span>♥</span>
+        </div>
+
+    </div>
+
+    <script src="age.js"></script>
+
+</body>
+
+</html>
